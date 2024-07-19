@@ -135,12 +135,13 @@ table {
 body {
   line-height: 1.5;
   font-size: 16px;
+  font-family: "Karla", sans-serif;
 }
 
 /* genral */
 
 .container {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 0 32px;
 }
@@ -149,31 +150,112 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+h1,
+h2,
+h3,
+h4 {
+  font-family: "DM Serif Display", serif;
+}
 
 /* header */
 
 .header span {
   font-size: 32px;
   font-weight: 700;
-  font-family: "DM Serif Display", serif;
 }
 .header a {
-  font-size: 16px;
+  font-size: 12px;
   text-decoration: none;
   text-transform: uppercase;
   margin-right: 24px;
   color: rgb(111 107 115);
-  font-family: sans-serif;
-  font-weight: 600;
+  font-weight: 500;
 }
 .active-btn {
-    border: 1px solid rgb(177 177 177);
-    height: 30px;
-    padding: 12px;
-    border-radius: 3px;
+  border: 1px solid rgb(177 177 177);
+  height: 30px;
+  padding: 12px;
+  border-radius: 3px;
 }
 
-/* main */ 
+/* main */
 
+.section-1 {
+  background-color: rgb(45 38 64);
+  color: white;
+  height: 380px;
+}
+hr {
+  width: 120px;
+  margin-left: 0;
+}
+h1 {
+  font-size: 44px;
+  font-weight: 700;
+  padding: 20px 0;
+  padding-right: 50px;
+  line-height: 1;
+  text-transform: capitalize;
+}
+.section-1 p {
+  font-size: 12px;
+  padding: 20px 0;
+}
+.col-1 {
+  flex: 0 1 45%;
+  margin-right: 24px;
+}
 
-
+.col-2 {
+  flex: 0 1 45%;
+}
+.col-2 img {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  top: 48px;
+}
+.btn {
+  display: inline-block;
+  padding: 12px;
+  border-radius: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  color: white;
+  border: 1px solid white;
+  box-shadow: 2px 0px 2px rgb(255, 255, 255);
+}
+.section-2 {
+  margin-top: 60px;
+}
+.section-2 img {
+  width: 360px;
+  height: 360px;
+}
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: hsl(214.67deg 100% 8.82%);
+}
+.section-2 p {
+  font-size: 16px;
+  color: hsl(260deg 3.8% 46.47%);
+  margin: 16px 0;
+}
+.section-2 .col-1 {
+  margin-top: 60px;
+}
+.btn-1 {
+  font-size: 14px;
+  color: hsl(260deg 3.8% 46.47%);
+  border: 1px solid hsl(260deg 3.8% 46.47%);
+  display: inline-block;
+  padding: 12px;
+  border-radius: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  box-shadow: 2px 0px 2px gray;
+}
